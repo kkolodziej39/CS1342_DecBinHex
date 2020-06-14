@@ -145,6 +145,14 @@ int Runner::hexToDec(string num) {
 }
 
 void Runner::decToHex(int num) {
+    cout << "Need to turn " << num << " into hex" << endl;
+    /*
+     * Conversion steps simplified from: https://www.rapidtables.com/convert/number/decimal-to-hex.html
+     * Divide the number by 16.
+     * Get the integer quotient for the next iteration.
+     * Get the remainder for the hex digit.
+     * Repeat the steps until the quotient is equal to 0.
+     */
 
 }
 
